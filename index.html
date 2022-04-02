@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<style type="text/css">
+		.boxs {
+			height: 100px;
+			width: 100px;
+			background-color: green;
+			border: solid;
+			position: absolute;
+		}
+		.firstBox {
+			background-color: white;
+			background-image: url(duck.png);
+		}
+
+	</style>
+</head>
+<body>
+	<button class="btn btn-success bt">Кости</button>
+	<h4 style="margin-left: 20px">Score: <span class="score">150</span></h4>
+
+	<div class="boxs firstBox" style="margin-left: 20px">
+		<h4>finish</h4>
+	</div>
+	<div class="boxs" style="margin-left: 130px">1</div>
+	<div class="boxs" style="margin-left: 240px; background-color: yellow">2</div>
+	<div class="boxs" style="margin-left: 350px; background-color: red">3</div>
+			
+	<div class="boxs" style="margin-left: 460px">4</div> 
+	<div class="boxs" style="margin-left: 570px; background-color: yellow">5</div>
+	<div class="boxs" style="margin-left: 680px;  background-color: red">6</div>
+	<div class="boxs" style="margin-left: 790px">7</div>
+	<div class="boxs" style="margin-left: 900px; background-color: yellow">8</div>
+	<div class="boxs" style="margin-left: 1010px; background-color: red">9</div>
+	<div class="boxs" style="margin-left: 1120px;">10</div>
+	<div class="boxs" style="margin-left: 1230px; background-color: yellow">11</div>
+	<div class="boxs" style="margin-left: 1340px; background-color: red">12</div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 110px">13</div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 220px; background-color: yellow">14</div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 330px; background-color: red">15</div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 440px;">16</div>
+	<div class="boxs" style="margin-left: 1230px; margin-top: 440px; background-color: yellow">17</div>
+	<div class="boxs" style="margin-left: 1120px; margin-top: 440px; background-color: red">18</div>
+	<div class="boxs" style="margin-left: 1010px; margin-top: 440px">19</div>
+	<div class="boxs" style="margin-left: 900px; margin-top: 440px; background-color: yellow">20</div>
+	<div class="boxs" style="margin-left: 790px; margin-top: 440px; background-color: red">21</div>
+	<div class="boxs" style="margin-left: 680px; margin-top: 440px;">22</div>
+	<div class="boxs" style="margin-left: 570px; margin-top: 440px; background-color: yellow">23</div>
+	<div class="boxs" style="margin-left: 460px; margin-top: 440px; background-color: red">24</div>
+	<div class="boxs" style="margin-left: 350px; margin-top: 440px">25</div>
+	<div class="boxs" style="margin-left: 350px; margin-top: 440px; background-color: yellow">26</div>
+	<div class="boxs" style="margin-left: 240px; margin-top: 440px; background-color: red">27</div>
+	<div class="boxs" style="margin-left: 130px; margin-top: 440px;">28</div>
+	<div class="boxs" style="margin-left: 20px; margin-top: 440px; background-color: yellow">29</div>
+	<div class="boxs" style="margin-left: 20px; margin-top: 330px; background-color: red">30</div>
+	<div class="boxs" style="margin-left: 20px; margin-top: 220px;">31</div>
+	<div class="boxs" style="margin-left: 20px; margin-top: 110px; background-color: yellow">32</div>
+	<!-- последние дивы. Чтобы не было ошибки. Момент отрисовки утки
+	
+	<div class="boxs" style="margin-left: 130px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 240px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 350px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 460px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 570px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 680px; margin-top: 110px; background-color: green; opacity: 0"></div>	
+	<div class="boxs" style="margin-left: 790px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 900px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1010px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1120px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1230px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 110px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 220px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 330px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 440px; background-color: green; opacity: 0"></div>
+	<div class="boxs" style="margin-left: 1340px; margin-top: 550px; background-color: green; opacity: 0"></div>
+	-->
+
+<script type="text/javascript">
+	// Писать сюда
+	let duck = document.querySelector('.duck')
+	let boxes = document.querySelectorAll('.boxs');
+	let btn = document.querySelector('.bt');
+	let score = document.querySelector('.score');
+
+	let num = 0;
+	let coin = 150;
+	
+	btn.onclick = function() {
+		let random = Math.random() * 5 + 1;
+		let round = Math.round(random);
+
+		boxes[num].style.backgroundImage = "none";
+		num = num + round;
+		boxes[num].style.backgroundImage = "url(duck.png)";
+
+
+		if (num == 3| num == 6| num == 9| num == 12| num == 15| num == 18| num == 21| num == 24| num == 27| num == 30) {
+			coin -= 10;
+			score.innerHTML = coin;
+		}
+
+		if (num == 2| num == 5| num == 8| num == 11| num == 14| num == 17| num == 20| num == 23| num == 26| num == 29) {
+			coin += 10;
+			score.innerHTML = coin;
+		}
+
+		if (num >= 32) {
+			num = 0;
+			boxes[0].style.backgroundImage = 'url(duck.png)';
+			boxes[32].style.backgroundImage = 'none';
+
+			
+			if (coin >= 170) {
+				alert("Win")
+				}
+			else {
+				alert("lost")
+			}	
+		}
+	}	
+
+		
+</script>
+	
+
+</body>
+</html>
